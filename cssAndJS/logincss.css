@@ -1,0 +1,37 @@
+
+#loginPageDiv{
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.userNameInput{
+    border-style: none;background: transparent;
+    color: white;
+    outline: none;/*去掉点击输入的外边框*/
+
+}
+#logoImg{
+    width: 60%;
+    height: 50%;
+    padding-top: 40%;
+}
+#loginButton{
+    width: 93%;
+    background-color: #FF2F2F;
+    color: white;
+    font-size: 15px;
+    text-shadow: none;
+}
+#passWord{
+    text-shadow: none;
+    color: white;
+    outline: none;
+
+}
+#userName{
+    text-shadow: none;
+    color: white;
+    outline: none;
+}

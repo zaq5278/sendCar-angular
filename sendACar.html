@@ -1,0 +1,22 @@
+<ion-view>
+    <ion-header-bar align-title="left" class="bar-calm">
+        <div class="buttons">
+            <button class="button icon ion-android-arrow-back" ng-click="goBackView()">返回</button>
+        </div>
+        <h1 class="title"></h1>
+        <div class="buttons">
+            <button class="button icon ion-ios-home" ng-click="goToMain()">首页</button>
+        </div>
+    </ion-header-bar>
+    <ion-content style="text-align: center">
+        <div style="padding-top: 2%"></div>
+        <button id="sendCarButton" class="button" style="width: 150px;height: 150px;margin:20px 10px 0 10px;;border-radius:75px;background-color: skyblue;background-image: url('img/woyaopaiche.png')" ng-click="goToSelectOrder()"></button>
+        <button id="havedOrder" class="button" style="width: 150px;height: 150px;margin:20px 10px 0 10px;border-radius:75px;background-color: skyblue;background-image: url('img/yibaocundepaichedan.png')" ng-click="goToHavedOrder()"></button>
+        <button id="sunmiedOrder" class="button" style="width: 150px;height: 150px;-webkit-border-radius: 75px;-moz-border-radius: 75px;border-radius: 75px;margin:20px 10px 0 10px;background-color: skyblue;background-image: url('img/yitijiaodepaichedan.png')" ng-click="goToSubmitOrder()"></button>
+
+    </ion-content>
+
+
+
+
+</ion-view>
